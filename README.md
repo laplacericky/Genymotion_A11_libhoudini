@@ -30,6 +30,7 @@ ro.zygote=zygote64_32
 
 To edit `build.prop` in step 2 you need [adb](https://www.xda-developers.com/install-adb-windows-macos-linux/) installed.
 ```
+adb connect <virtual_device_IP>:5555
 adb shell
 su
 mount -o rw,remount /
